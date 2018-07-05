@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "dev": "nodemon ./bin/www"
+    "dev": "nodemon ./bin/www",
+    "deploy": "git add . && git commit -m 'deply' && git push heroku master"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
