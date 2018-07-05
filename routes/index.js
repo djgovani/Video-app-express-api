@@ -13,6 +13,7 @@ router.get(`/api/videos`, videosController.getVideos);
 router.get(`/api/videos/:id`, videosController.getSingleVideo);
 router.post(`/api/videos`, videosController.postVideos);
 router.put(`/api/videos/:id`, videosController.updateVideos);
+router.delete(`/api/videos/:id`, videosController.deleteVideo);
 
 router.get(`/api/categories`, categoriesController.getCategories);
 
