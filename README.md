@@ -29,4 +29,4 @@ Node.js >= 8.9.x/NPM
     npm start
     ```
 
-### For the Video-app <a href="https://github.com/iakashpatel/developer-videos-vue-app">app</a> 
+### For the Video-app <a href="https://github.com/iakashpatel/developer-videos-vue-app">Front-end</a> 
